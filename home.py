@@ -13,9 +13,9 @@ st.image('./img/H1.jpg')
 
 c1,c2,c3=st.columns(3)
 with c1:
-    st.wrine('./img/H1.jpg')
+    st.write('./img/H1.jpg')
 with c2:
-    st.wrine('./img/H2.jpg')
+    st.write('./img/H2.jpg')
 with c3:
     st.write("")
 
