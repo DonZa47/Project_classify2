@@ -33,7 +33,7 @@ st.bar_chart(dx2)
 st.subheader("สถิติข้อมูลโรคหัวใจ")
 st.write(dt.describe())
 st.write("สถิติจำนวนเพศหญิง=0 เพสชาย=1")
-st.write(dtgroupby('sex')['sex'].count())
+st.write(dt.groupby('sex')['sex'].count())
 count_male = dt.groupby('sex').size()[0]
 dx = [count_male, count_female]
 dx2 =pd.DataFrame(dx, index=["Male","Female"])
