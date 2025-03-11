@@ -1,4 +1,4 @@
-Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease
+Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,LaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease
 40,1,2,140,289,0,2,172,0,0,3,0
 49,0,3,160,180,0,2,156,0,1,2,1
 37,1,2,130,283,0,3,98,0,0,3,0
