@@ -79,8 +79,8 @@ sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
    dt = pd.read_csv("./data/heart2.csv") 
-   X = dt.drop('variety', axis=1)
-   y = dt.variety   
+   X = dt.drop('HeartDisease', axis=1)
+   y = dt.HeartDisease   
 
    Knn_model = KNeighborsClassifier(n_neighbors=3)
    Knn_model.fit(X, y)  
@@ -91,10 +91,8 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0] == '1':
-    st.image("./img/iris1.jpg")
-   elif out[0] == 'Versicolor':       
-    st.image("./img/iris2.jpg")
+    st.image("./img/H2.jpg")
    else:
-    st.image("./img/iris3.jpg")
+    st.image("./img/H3.jpg")
 else:
     st.write("ไม่ทำนาย")
