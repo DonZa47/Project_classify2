@@ -19,7 +19,7 @@ with c2:
 with c3:
     st.write("")
 
-dt= pd.read_csv('./data/heart 2.csv')
+dt= pd.read_csv('./data/heart2.csv')
 
 st.header("ข้อมูลโรคหัวใจ")
 st.write(dt.head(10))
