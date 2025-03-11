@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.title("👨🏽‍⚕️👨🏽‍⚕️การพยากรณ์โรคหัวใจล้มเหลว👨🏽‍⚕️👨🏽‍⚕️")
+st.title("👨🏽‍⚕️👨🏽‍⚕️การพยากรณ์โรคหัวใจล้มเหลว")
 st.header("👨🏽‍⚕️👨🏽‍⚕️ด้วยเทคนิคเหมืองแร่ข้อมูล👨🏽‍⚕️👨🏽‍⚕️")
 
 st.image('./img/H1.jpg')
