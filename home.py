@@ -37,7 +37,7 @@ st.write(dt.groupby('Sex')['Sex'].count())
 count_male = dt.groupby('Sex').size()[0]
 dx = [count_male, count_female]
 dx2 =pd.DataFrame(dx, index=["Male","Female"])
-st.bar_chart_chart(dx2)
+st.bar_chart(dx2)
 
 st.subheader("ข้อมูลแยกตามเพศ")
 count_male = dt.groupby('Sex').size()[1]
